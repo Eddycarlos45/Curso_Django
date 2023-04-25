@@ -21,5 +21,5 @@ from django.http import HttpResponse
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('recipes/', include('recipes.url'))
+    path('', include('recipes.url'))
 ]
